@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = async (req, res) => {
   // 🔥 YAHAN APNA NAAM LIKHO
-  const YOUR_NAME = "आपका_नाम";
+  const YOUR_NAME = "Paras chourasiya / TG - @Aotpy";
   
   // CORS enable
   res.setHeader('Access-Control-Allow-Origin', '*');
