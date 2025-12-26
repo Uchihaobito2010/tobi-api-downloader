@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "all-media-downloader",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/api/download",
+      "destination": "/api/download.js"
+    },
+    {
+      "source": "/",
+      "destination": "/api/download.js"
+    },
+    {
+      "source": "/download",
+      "destination": "/api/download.js"
+    }
+  ],
+  "env": {
+    "DEVELOPER_NAME": "Paras chourasiya"
+  }
+}
